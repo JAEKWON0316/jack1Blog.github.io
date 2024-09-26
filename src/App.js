@@ -4,9 +4,8 @@ import Navigation from './pages/Navigation';
 
 import About from './pages/About';
 import Experience from './pages/Experience';
-import History from './pages/History';
+import Profile from './pages/Profile';
 import Projects from './pages/Projects';
-import Contact from './pages/Contact';
 import Skills from './pages/Skills';
 
 const App = () => {
@@ -16,11 +15,10 @@ const App = () => {
        <Row>
            <Col md={{span:9, offset:3}}>
               <About />
-              <History />
+              <Profile />
               <Skills />
               <Experience />
               <Projects />
-              <Contact />
            </Col>
        </Row>
     </Container>  

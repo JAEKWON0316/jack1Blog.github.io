@@ -21,9 +21,9 @@ const Navigation = () => {
                         onClick={() => handleClick('about')}> 
                 <span /><MdNavigateNext /> about me 
             </a>
-            <a href="#history" className={`nav-tems ${actItem === 'history' ? 'action' : ''}`}
-                        onClick={() => handleClick('history')}>
-                <span /><MdNavigateNext /> my history
+            <a href="#profile" className={`nav-tems ${actItem === 'profile' ? 'action' : ''}`}
+                        onClick={() => handleClick('profile')}>
+                <span /><MdNavigateNext /> Profile
             </a>
             <a href="#skills" className={`nav-tems ${actItem === 'skills' ? 'action' : ''}`}
                         onClick={() => handleClick('skills')}>
@@ -36,10 +36,6 @@ const Navigation = () => {
             <a href="#projects" className={`nav-tems ${actItem === 'projects' ? 'action' : ''}`}
                         onClick={() => handleClick('projects')}>
                 <span /><MdNavigateNext /> my projects
-            </a>
-            <a href="#contact" className={`nav-tems ${actItem === 'contact' ? 'action' : ''}`}
-                        onClick={() => handleClick('contact')}>
-                <span /><MdNavigateNext /> contact me
             </a>
         </div>
         <div className="text-center mt-5 mb-4">
