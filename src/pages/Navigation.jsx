@@ -29,23 +29,23 @@ const Navigation = () => {
                         onClick={() => handleClick('skills')}>
                 <span /><MdNavigateNext /> Skills
             </a>
-            <a href="#experience" className={`nav-tems ${actItem === 'experience' ? 'action' : ''}`}
-                        onClick={() => handleClick('experience')}>  
-                <span /><MdNavigateNext /> my experience
-            </a>
             <a href="#projects" className={`nav-tems ${actItem === 'projects' ? 'action' : ''}`}
                         onClick={() => handleClick('projects')}>
-                <span /><MdNavigateNext /> my projects
+                <span /><MdNavigateNext /> projects
+            </a>
+            <a href="#career" className={`nav-tems ${actItem === 'career' ? 'action' : ''}`}
+                        onClick={() => handleClick('career')}>  
+                <span /><MdNavigateNext /> career
             </a>
         </div>
         <div className="text-center mt-5 mb-4">
             <img src="images/left-background.png" className="img-fluid" />
         </div>
         <div className="text-center snsbox">
-            <a href="#" className="github"><RiGithubFill /></a>
-            <a href="#" className="insta"><RiInstagramFill /></a>
-            <a href="#" className="kakao"><RiKakaoTalkFill /></a>
-            <a href="#" className="google"><RiGoogleFill /></a>
+            <a href="https://github.com/JAEKWON0316/reactBlog" className="github"><RiGithubFill /></a>
+            <a href="https://www.instagram.com/jack1zz_" className="insta"><RiInstagramFill /></a>
+            <a href="https://www.kakao.com" className="kakao"><RiKakaoTalkFill /></a>
+            <a href="https://mail.google.com" className="google"><RiGoogleFill /></a>
         </div>
     </div>
   )

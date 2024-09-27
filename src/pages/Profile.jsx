@@ -4,7 +4,7 @@ const Profile = () => {
   return (
     <section id="profile">
       <div className="about-box">
-      <h1 className='mb-5 pb-5'>Profile</h1>
+      <h1 className='mb-5 pb-5 black_font'><i class="ri-links-line"></i>Profile</h1>
       <h4 className='mb-5'>신입 개발자 이재권을 소개합니다.</h4>
       <div className="profile_box pt-5">
         <div className="pr_in_box">
@@ -52,7 +52,7 @@ const Profile = () => {
         <i class="ri-mail-line pr-ft_size text-c"></i>
         <div className='mt-3 mx-4'>
         <h5>이메일</h5>
-        <div className='ft-size-p'>diwo02@naver.com</div>
+        <div className='ft-size-p'>dlwornjs0316@gmail.com</div>
         </div>
         </div>
         </div>

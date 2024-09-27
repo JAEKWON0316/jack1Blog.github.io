@@ -10,6 +10,13 @@ body {
   font-size:16px;
   color:#333;
 }
+.black_font{
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400
+}
+.gray_color{
+  color:#999999;
+}
 .navi{
   min-height:200px;
   background:#fff;
@@ -74,12 +81,12 @@ body {
    font-size:2rem;
    margin-left:8px;
    margin-right:8px;
-   color:#0fbcf9;
+   color: #ccc;
    transition: all 300ms;
    position:relative;
 }
 .snsbox a:hover{
-  color:#025f81;
+  color:#222;
   font-size:2.2rem;
 }
 .snsbox a:hover::before{
@@ -95,7 +102,7 @@ body {
     content:"깃허브";
 }
 .snsbox a.insta:hover::before{
-    content:"인스타그램";
+    content:"인스타";
 }
 .snsbox a.kakao:hover::before{
     content:"카카오톡";
@@ -149,6 +156,10 @@ body {
   justify-content: space-between;
   -webkit-box-pack: justify;
 }
+.pr_d_box h5{
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400;
+}
 .pr_in_box{
   width: 33.3333%;
 }
@@ -197,6 +208,21 @@ body {
   flex-flow: row nowrap;
   width: 100%;
   max-width: 14rem;
+}
+.myskill h5{
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 300;
+}
+
+/******** projects *******/
+
+.project_card{
+  width:420px;
+  height:400px;
+  
+  background-color: #fff;
+  box-shadow: 0 0 .5rem 0 rgba(68, 68, 68, .4);
+  border-radius: 1rem;
 }
 
 

@@ -7,8 +7,8 @@ const About = () => {
     <section id="about">
       <div className="about-box">
         <div className="background-box">
-        <h1 className='mb-5'>About Me</h1>
-      <h2 className='mb-5'>I'm developing mobile and web applications.</h2>
+        <h1 className='mb-5 black_font'><i class="ri-links-line"></i>About Me</h1>
+      <h3 className='mb-5'>I'm developing mobile and web applications.</h3>
           <p>
             안녕하세요. 저는 이제 막 웹, 모바일 app을 개발하기 시작한 새내기 개발자 이재권입니다.
           </p>
@@ -20,11 +20,11 @@ const About = () => {
           </p>
       </div>
    
-    <div className="row">
+    <div className="row black_font">
       <div className="col-md-3">
         <div className="card">
         <i class="ri-database-2-fill ft-size text-c"></i>
-          <h5 className='about-text'>Server</h5>
+          <h5 className='about-text '>Server</h5>
         </div>
       </div>
         <div className="col-md-3">

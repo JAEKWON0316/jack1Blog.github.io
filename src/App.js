@@ -3,7 +3,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 import Navigation from './pages/Navigation';
 
 import About from './pages/About';
-import Experience from './pages/Experience';
+import Career from './pages/Career';
 import Profile from './pages/Profile';
 import Projects from './pages/Projects';
 import Skills from './pages/Skills';
@@ -17,8 +17,8 @@ const App = () => {
               <About />
               <Profile />
               <Skills />
-              <Experience />
               <Projects />
+              <Career />
            </Col>
        </Row>
     </Container>  
