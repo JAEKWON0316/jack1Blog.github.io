@@ -1,8 +1,11 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import Carousel from '../pages/Carousel'; // Carousel 컴포넌트 import
+import Carousel2 from '../pages/Carousel2';
+import shop05 from '../assets/shop05.png';
 
 const Projects = () => {
   const [showCarousel, setShowCarousel] = useState(false); // Carousel 표시 상태 관리
+  const [showCarousel2, setShowCarousel2] = useState(false);
 
   const handleGitHubClick = () => {
     // GitHub 홈페이지로 이동하는 함수
@@ -16,6 +19,15 @@ const Projects = () => {
   const closeCarousel = () => {
     setShowCarousel(false); // Carousel 숨기기
   };
+
+  const handleImageClick2 = () => {
+    setShowCarousel2(true); // 이미지 버튼을 클릭하면 Carousel2 표시
+  };
+  
+  const closeCarousel2 = () => {
+    setShowCarousel2(false); // Carousel2 숨기기
+  };
+
   return (
     <section id="projects">
       <div className="about-box">
@@ -62,7 +74,7 @@ const Projects = () => {
           <div className="col-md-6">
           <div className="project_card">
               <img 
-                src="https://github.com/user-attachments/assets/8a173180-9a4d-44d7-99fa-35b4788e1cd3" 
+                src={shop05}
                 width="420" 
                 height="400" 
                 style={{ width: '420px', height: '400px', borderRadius: '1rem'}} 
@@ -92,7 +104,7 @@ const Projects = () => {
                 </div>
                 <div className="project_btn mt-2">
                   <button type='button' className="p_btn_1" onClick={handleGitHubClick}><i class="ri-github-fill"></i>GitHub 저장소</button>
-                  <button className="p_btn_1"><i class="ri-file-image-line"></i>이미지</button>
+                  <button className="p_btn_1"onClick={handleImageClick2}><i class="ri-file-image-line"></i>이미지</button>
                 </div>
               </div>
             </div>
@@ -174,6 +186,7 @@ const Projects = () => {
         </div>
       </div>  
       {showCarousel && <Carousel onClose={closeCarousel} />}
+      {showCarousel2 && <Carousel2 onClose={closeCarousel2} />}
     </section>
   );
 }
