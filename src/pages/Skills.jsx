@@ -47,6 +47,15 @@ const Skills = () => {
           </div>
         </li>
         자바의 기초를 공부하고 자료구조와 알고리즘을 자바기반으로 학습했습니다. 순수 자바를 활용 TDD 개발방법을 적용하여 객체 지향적인 코드개발 능력을 훈련하고 있습니다.		
+        <li>
+          <h5>Python</h5>
+          <div className="progress">
+            <div className="progress-bar" role="progressbar" style={{ width: '80%', backgroundColor: '#306998'  }} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+              80%
+            </div>
+          </div>
+        </li>
+        자바의 기초를 공부하고 자료구조와 알고리즘을 자바기반으로 학습했습니다. 순수 자바를 활용 TDD 개발방법을 적용하여 객체 지향적인 코드개발 능력을 훈련하고 있습니다.		
       </ul>
       <ul className="myskill">
         <li>
@@ -84,7 +93,16 @@ const Skills = () => {
             </div>
           </div>
         </li>
-        자바의 기초를 공부하고 자료구조와 알고리즘을 자바기반으로 학습했습니다. 순수 자바를 활용 TDD 개발방법을 적용하여 객체 지향적인 코드개발 능력을 훈련하고 있습니다.		
+        자바의 기초를 공부하고 자료구조와 알고리즘을 자바기반으로 학습했습니다. 순수 자바를 활용 TDD 개발방법을 적용하여 객체 지향적인 코드개발 능력을 훈련하고 있습니다. 
+        <li>
+          <h5>Node.JS</h5>
+          <div className="progress">
+            <div className="progress-bar" role="progressbar" style={{ width: '80%', backgroundColor: '#8CC84B'  }} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+              80%
+            </div>
+          </div>
+        </li>
+        자바의 기초를 공부하고 자료구조와 알고리즘을 자바기반으로 학습했습니다. 순수 자바를 활용 TDD 개발방법을 적용하여 객체 지향적인 코드개발 능력을 훈련하고 있습니다.		   		
       </ul>
     </div>
     </div>
