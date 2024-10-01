@@ -312,6 +312,9 @@ const Projects = () => {
             </div>
           </div>
         </div>
+        <div className="project_banner mt-5 text-c">
+        <h5 className='project_text'>*더 많은 프로젝트들을 개발하기 위해 노력하겠습니다.</h5>
+      </div>
       </div>  
       {showCarousel && <Carousel onClose={closeCarousel} />}
       {showCarousel2 && <Carousel2 onClose={closeCarousel2} />}
