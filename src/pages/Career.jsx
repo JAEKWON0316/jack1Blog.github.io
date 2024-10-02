@@ -3,8 +3,9 @@ import React from 'react'
 const Carrer = () => {
   return (
     <section id="career">
-    <div className="about-box">
-    <h1 className='black_font mb-5'><i class="ri-links-line"></i>Career</h1>
+    <div className="basic_box">
+    <span class="intro">"살아온 순간들"</span>
+    <h1 className='mb-5 black_font flex_underline'><i class="ri-links-line"></i><span className="block_underline">Career</span></h1>
       <div className="career_box basic_font mb-2">
       &nbsp;&nbsp;&nbsp;경기도 김포시 소재 사우고등학교 졸업 &nbsp; <i class="ri-pushpin-fill"></i>
       </div>

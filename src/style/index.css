@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
 html,body{
   height:100%;
 }
@@ -23,10 +24,21 @@ body {
 a{
   text-decoration: none;
 }
+.basic_box{
 
+  padding:2.5em;
+}
+.intro{
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #999999;
+  font-weight: 500;
+  letter-spacing: 3px;
+
+}
 .navi{
   min-height:200px;
-  background:#fff;
+  background:#fefefe;
   border-left:1px solid #ededed;
   border-right:1px solid #ededed;
   padding:10px 1rem 10px;
@@ -41,13 +53,20 @@ a{
 .logo{
   max-width:30%;
   transition:all 300ms;
-  margin-right:15px;
+  margin-right:13px;
 }
 .hello{
   font-weight:600;
-  font-size:1.2rem;
+  font-size:30px;
   margin-top:15px;
-  margin-bottom:50px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.hello2{
+  font-size: 12px;
+  color:rgba(0,0,0, 0.7);
+ 
 }
 .navbox{
    text-align: left;
@@ -84,16 +103,60 @@ a{
     margin-right:15px;
     font-size:20px;
 }
-.snsbox a{
+.snsbox a:first-child{
    font-size:2rem;
    margin-left:8px;
    margin-right:8px;
-   color: #ccc;
+   color: #181717;
+   opacity: 0.8;
    transition: all 300ms;
    position:relative;
 }
-.snsbox a:hover{
-  color:#222;
+.snsbox a:nth-child(2){
+  font-size:2rem;
+  margin-left:8px;
+  margin-right:8px;
+  color:  #E1306C;
+  opacity: 0.8;
+  transition: all 300ms;
+  position:relative;
+}
+.snsbox a:nth-child(3){
+  font-size:2rem;
+  margin-left:8px;
+  margin-right:8px;
+  color: #FEE500;
+  opacity: 0.8;
+  transition: all 300ms;
+  position:relative;
+}
+.snsbox a:last-child{
+  font-size:2rem;
+  margin-left:8px;
+  margin-right:8px;
+  color: #4285F4;
+  opacity: 0.8;
+  transition: all 300ms;
+  position:relative;
+}
+.snsbox a:first-child:hover{
+  color:#181717;
+  opacity: 1;
+  font-size:2.2rem;
+}
+.snsbox a:nth-child(2):hover{
+  color: #E1306C;
+  opacity: 1;
+  font-size:2.2rem;
+}
+.snsbox a:nth-child(3):hover{
+  color:#FEE500;
+  opacity: 1;
+  font-size:2.2rem;
+}
+.snsbox a:last-child:hover{
+  color:#4285F4;
+  opacity: 1;
   font-size:2.2rem;
 }
 .snsbox a:hover::before{
@@ -118,10 +181,86 @@ a{
     content:"구글";
 }
 
-/*** ABOUT ME ****/
-.about-box{
-    padding:2.5em;
+.flex_underline {
+  display: flex;
+  align-items: center; /* 아이콘과 텍스트 수직 가운데 정렬 */
+  margin-top:10px;
 }
+
+.block_underline {
+  display: block;
+  border-bottom: 1px solid #999999;
+  margin-left:5px;
+  margin-top:12px;
+}
+/**** HOME *****/
+#home{
+  height:1000px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+.home_box{
+  display: flex;
+  justify-content: center; 
+  flex-direction: column; 
+  height:100vh;
+  font-size:50px;
+}
+.home_box2{
+    display: flex;
+    justify-content: center; 
+    flex-direction: column; 
+    height:100vh;
+    font-size:50px;
+}
+.hbox_m{
+  margin:10px 0;
+}
+.h_name{
+  font-size:60px;
+}
+.about-box, .about-box2, .about-box3 {
+  transition: transform 0.5s ease, opacity 0.5s ease; /* 애니메이션 효과 */
+  position: absolute; /* 위치를 절대적으로 설정하여 겹치게 함 */
+  padding:2.5em;
+ 
+}
+
+.about-box3 {
+  transform: translateX(-100%); /* 왼쪽에서 들어오기 위해 이동 */
+  opacity: 0; /* 나타남 */
+}
+.about-box {
+  transform: translateX(0); /* 기본 위치 */
+  opacity: 1; /* 기본 불투명도 */
+}
+
+.about-box.hidden {
+  transform: translateX(100%); /* 오른쪽으로 이동 */
+  opacity: 0; /* 사라짐 */
+}
+.about-box2.hidden {
+  transform: translateX(100%); /* 오른쪽으로 이동 */
+  opacity: 0; /* 사라짐 */
+}
+.about-box3.hidden{
+  transform: translateX(100%); /* 오른쪽으로 이동 */
+  opacity: 0; /* 사라짐 */
+}
+.about-box2 {
+  transform: translateX(-100%); /* 왼쪽에서 들어오기 위해 이동 */
+  opacity: 0; /* 기본적으로 숨김 */
+}
+
+.about-box2.visible {
+  transform: translateX(0); /* 기본 위치로 이동 */
+  opacity: 1; /* 나타남 */
+}
+.about-box3.visible{
+  transform: translateX(0); /* 기본 위치로 이동 */
+  opacity: 1; /* 나타남 */
+
+}
+/*** ABOUT ME ****/
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -148,14 +287,16 @@ a{
 .text-c{
   text-align: center;
 }
+
 .about_banner{
   width:100%;
   height:100px;
-  background-color: #ddd;
+  background-color: rgba(210, 210, 210, 0.8); 
   border:1px solid #ddd;
   font-family: "Nanum Myeongjo", sans-serif;
 }
 /***** profile ****/
+
 .profile_box{
   display: flex;
   display: -ms-flexbox;
@@ -187,7 +328,7 @@ a{
   width:100%;
   height:60px;
   border:1px solid #ddd;
-  background-color: #ddd;
+  background-color: rgba(221, 221, 221, 0.8); 
   font-family: "Nanum Myeongjo", sans-serif;
   
 }
@@ -399,7 +540,7 @@ font-size:20px;
   width:100%;
   height:60px;
   border:1px solid #ddd;
-  background-color: #ddd;
+  background-color: rgba(221, 221, 221, 0.8);
   font-family: "Nanum Myeongjo", sans-serif;
 }
 .project_text{
@@ -497,7 +638,7 @@ section{
   .navi {
       width: 330px;
       height:100%;
-      padding:80px 1rem 50px;
+      padding:50px 1rem 50px;
       flex-flow: column wrap;
       align-items: center;
   }

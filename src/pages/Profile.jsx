@@ -3,10 +3,11 @@ import React from 'react';
 const Profile = () => {
   return (
     <section id="profile">
-      <div className="about-box">
-      <h1 className='mb-5 pb-5 black_font'><i class="ri-links-line"></i>Profile</h1>
+      <div className="basic_box">
+      <span class="intro">"저를 소개합니다"</span>
+      <h1 className='mb-5 black_font flex_underline'><i class="ri-links-line"></i><span className="block_underline">Profile</span></h1>
       <h4 className='mb-5'>신입 개발자 이재권을 소개합니다.</h4>
-      <div className="profile_box pt-5">
+      <div className="profile_box">
         <div className="pr_in_box">
         <div className="pr_d_box">
         <i class="ri-account-circle-fill pr-ft_size text-c"></i>

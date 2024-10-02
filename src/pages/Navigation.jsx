@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import Logo from '../assets/logo.png';
 import pf from '../assets/다운로드 (1).jpg';
 import { MdNavigateNext } from "react-icons/md";
 import { RiGithubFill, RiInstagramFill, RiKakaoTalkFill, RiGoogleFill } from "react-icons/ri";
 
 const Navigation = () => {
-    const [actItem, setActItem] = useState('about');
+    const [actItem, setActItem] = useState('home');
     const handleClick = (navItem) => {
         setActItem(navItem);
     };
@@ -45,8 +44,13 @@ const Navigation = () => {
                 className="logo" 
                 alt="logo" 
             />  
-            <h4 className="hello mt-4 text-c">Hello, FullStack Developer<br /> jack's Page</h4>
+            <h4 className="hello mt-4 text-c pe-3">이재권</h4>
+            <span className='hello2 mb-4 pe-3'>Java 백엔드 개발자</span>
             <div className="navbox">
+                <a href="#home" className={`nav-tems ${actItem === 'home' ? 'action' : ''}`}
+                    onClick={() => handleClick('home')}>
+                    <span /><MdNavigateNext /> home
+                </a>
                 <a href="#about" className={`nav-tems ${actItem === 'about' ? 'action' : ''}`}
                     onClick={() => handleClick('about')}>
                     <span /><MdNavigateNext /> about me
@@ -68,7 +72,7 @@ const Navigation = () => {
                     <span /><MdNavigateNext /> career
                 </a>
             </div>
-            <div className="text-center mt-5 mb-4">
+            <div className="text-center mt-4 mb-4">
                 <img src="images/left-background.png" className="img-fluid" />
             </div>
             <div className="text-center snsbox">

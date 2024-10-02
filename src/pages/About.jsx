@@ -5,18 +5,20 @@ const About = () => {
   
   return (
     <section id="about">
-      <div className="about-box">
+      <div className="basic_box">
         <div className="background-box">
-        <h1 className='mb-5 black_font'><i class="ri-links-line"></i>About Me</h1>
+          <span class="intro">"29살에 시작한 신입 개발자"</span>
+        <h1 className='mb-5 black_font flex_underline'><i class="ri-links-line"></i><span className="block_underline">About Me</span></h1>
       <h3 className='mb-5'>I'm developing mobile and web applications.</h3>
           <p>
-            안녕하세요. 저는 이제 막 웹, 모바일 app을 개발하기 시작한 새내기 개발자 이재권입니다.
+          메인 언어 JAVA로 백엔드 개발에 관심을 가지고 있는 주니어 개발자
           </p>
           <p className='mb-5'>
-          저는 원래 요리사로써 사람들의 입에 즐거움을 입력했었습니다. 
-          그러던 도중 평소 궁금해하던 프로그래밍을 입문하게 됐고, 코드를 따라쳐보며 많은 재미를 느꼈습니다. 
-          매일 퇴근하고 개발 공부를 하던 중 더 늦기전에 사람들이 사용할 수 있는 서비스를 개발해서 제가 평소 컴퓨터를 사용하며 느꼈던 편안함과 즐거움을 느낄 수 있게 해주고 싶었습니다. 
-          이후 요리사 일을 정리하고 매일매일 개발 공부에 모든 시간을 투자하고 있습니다. 늦은만큼 남들보다 더 열심히 개발을 배우고있습니다.
+          대학교 진학 후 프로그래밍 언어와 전자공학에 대해 처음 공부를 하였습니다. 
+          이 공부들은 그동안 배워왔던 무조건 외워서 하는 공부가 아닌 제가 이해를 하여 결과를 도출할 수 있다는 점이 매력적으로 다가왔고 스스로가 재미있어서 노력을 하게 되었습니다. 
+          그렇게 남들보다 뒤처졌다는 걸 안 저는 성장하기 위해 여러 프로젝트를 개발하고 있습니다. 
+          이러한 행동들은 제 도전정신에 대한 밑거름이 되었고 그렇게 졸업 후에 컴퓨터와 개발자에 관한 자격증들을 딸 수 있게 도와줬습니다.
+          늦게 시작한만큼 더 열심히 도전하며 배우겠습니다.
           </p>
       </div>
    
@@ -48,7 +50,7 @@ const About = () => {
       </div>
 
       <div className="about_banner mt-5 p-4">
-          <div className='mb-1'>1)&nbsp;&nbsp;늦게 시작한 만큼 더 열심히 배우고있습니다.</div>
+          <div className='banner_text mb-1'>1)&nbsp;&nbsp;맡은 프로젝트를 꼭 끝낼 수 있는 <span className='text-decoration-underline'><strong>책임감 있는</strong></span> 개발자가 되겠습니다.</div>
           <div>2)&nbsp;&nbsp;<span className='text-decoration-underline'><strong>빠르고 효율적인</strong></span> 개발자가 되기 위해 노력하겠습니다. </div>
         </div> 
     </div>

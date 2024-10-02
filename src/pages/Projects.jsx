@@ -74,8 +74,9 @@ const Projects = () => {
 
   return (
     <section id="projects">
-      <div className="about-box">
-        <h1 className='black_font'><i className="ri-links-line"></i>Projects</h1>
+      <div className="basic_box">
+      <span class="intro">"제가 만든 작품들"</span>
+      <h1 className='mb-5 black_font flex_underline'><i class="ri-links-line"></i><span className="block_underline">Projects</span></h1>
         <div className="row black_font mt-5">
           <div className="col-md-6">
             <div className="project_card">
