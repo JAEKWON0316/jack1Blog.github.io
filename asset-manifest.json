@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4d25434c.css",
-    "main.js": "/static/js/main.629a04ec.js",
+    "main.css": "/static/css/main.c8c233e2.css",
+    "main.js": "/static/js/main.e08ce6e4.js",
     "static/media/shop02.png": "/static/media/shop02.f97d5e1106d530464539.png",
     "static/media/remixicon.svg?t=1718271040674": "/static/media/remixicon.f38690bdde29bddbc211.svg",
     "static/media/spsecurity01.png": "/static/media/spsecurity01.7c107c000787be8bcabd.png",
@@ -33,15 +33,14 @@
     "static/media/mysecurity04.png": "/static/media/mysecurity04.7578976c5a60fe94db39.png",
     "static/media/firebase04.png": "/static/media/firebase04.548299f7dcbbb9c55acd.png",
     "static/media/firebasechat01.png": "/static/media/firebasechat01.c7f1a9454658edd01d91.png",
-    "static/media/logo.png": "/static/media/logo.885976991f590827f543.png",
     "static/media/firebase08.png": "/static/media/firebase08.08b3a3ca636018be344c.png",
     "static/media/다운로드 (1).jpg": "/static/media/다운로드 (1).1a28c91fc402872dacdf.jpg",
     "index.html": "/index.html",
-    "main.4d25434c.css.map": "/static/css/main.4d25434c.css.map",
-    "main.629a04ec.js.map": "/static/js/main.629a04ec.js.map"
+    "main.c8c233e2.css.map": "/static/css/main.c8c233e2.css.map",
+    "main.e08ce6e4.js.map": "/static/js/main.e08ce6e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d25434c.css",
-    "static/js/main.629a04ec.js"
+    "static/css/main.c8c233e2.css",
+    "static/js/main.e08ce6e4.js"
   ]
 }
