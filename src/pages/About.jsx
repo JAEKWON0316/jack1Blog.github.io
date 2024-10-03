@@ -9,11 +9,11 @@ const About = () => {
         <div className="background-box">
           <span class="intro">"29살에 시작한 신입 개발자"</span>
         <h1 className='mb-5 black_font flex_underline'><i class="ri-links-line"></i><span className="block_underline">About Me</span></h1>
-      <h3 className='mb-5'>I'm developing mobile and web applications.</h3>
-          <p>
+      <h3 className='mb-5'>저는 웹 그리고 모바일 애플리케이션을 만드는중입니다.</h3>
+          <p className='about_text1'>
           메인 언어 JAVA로 백엔드 개발에 관심을 가지고 있는 주니어 개발자
           </p>
-          <p className='mb-5'>
+          <p className='about_text2 mb-5'>
           대학교 진학 후 프로그래밍 언어와 전자공학에 대해 처음 공부를 하였습니다. 
           이 공부들은 그동안 배워왔던 무조건 외워서 하는 공부가 아닌 제가 이해를 하여 결과를 도출할 수 있다는 점이 매력적으로 다가왔고 스스로가 재미있어서 노력을 하게 되었습니다. 
           그렇게 남들보다 뒤처졌다는 걸 안 저는 성장하기 위해 여러 프로젝트를 개발하고 있습니다. 
