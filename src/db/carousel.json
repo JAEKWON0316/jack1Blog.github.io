@@ -1,0 +1,86 @@
+{
+    "carousels": [
+      {
+        "id": 1,
+        "images": [
+          "https://github.com/user-attachments/assets/8a173180-9a4d-44d7-99fa-35b4788e1cd3",
+          "https://github.com/user-attachments/assets/3dca297d-ed46-461c-a04c-b35cdfa4ffa9",
+          "https://github.com/user-attachments/assets/c11fe3dd-f4ec-4bd4-9b22-2054698ec95b",
+          "https://github.com/user-attachments/assets/72b63471-b444-419b-b694-d66542234f34",
+          "https://github.com/user-attachments/assets/c4776e72-42ed-4453-87f1-ef2e148d4725",
+          "https://github.com/user-attachments/assets/4f0cd31a-c80b-45e0-971c-f15e09492003",
+          "https://github.com/user-attachments/assets/2ab8d676-3a6e-4f04-836c-d98a6e4584ea",
+          "https://github.com/user-attachments/assets/e829067d-4303-4269-90fb-74d3385a713d",
+          "https://github.com/user-attachments/assets/46f1178b-951d-45a3-ae64-59b14d144ad1",
+          "https://github.com/user-attachments/assets/e41bfe90-0932-4a2b-bf77-c3ff46361c5d",
+          "https://github.com/user-attachments/assets/f16dd666-5f7b-469c-a512-1c1546072afe",
+          "/images/roadDB.png"
+        ]
+      },
+      {
+        "id": 2,
+        "images": [
+            "/images/shop05.png",
+            "/images/shop01.png",
+            "/images/shop02.png",
+            "/images/shop03.png",
+            "/images/shop04.png"
+        ]
+      },
+      {
+        "id": 3,
+        "images": [
+            "/images/spsecurity01.png",
+            "/images/mysecurity02.png",
+            "/images/mysecurity03.png",
+            "/images/mysecurity04.png"
+        ]
+      },
+      {
+        "id": 4,
+        "images": [
+            "/images/spboard01.png",
+            "/images/spboard02.png",
+            "/images/spboard03.png",
+            "/images/spboard04.png",
+            "/images/spboard05.png",
+            "/images/spboard06.png",
+            "/images/spboard07.png",
+            "/images/spboard08.png",
+            "/images/spboard09.png"
+        ]
+      },
+      {
+        "id": 5,
+        "images": [
+            "/images/firebase08.png",
+            "/images/firebasechat01.png",
+            "/images/firebasechat02.png",
+            "/images/firebasechat03.png",
+            "/images/firebase04.png",
+            "/images/firebase05.png",
+            "/images/firebase06.png",
+            "/images/firebase07.png"
+        ]
+      },
+      {
+        "id": 6,
+        "images": [
+          "https://github.com/user-attachments/assets/8a173180-9a4d-44d7-99fa-35b4788e1cd3",
+          "https://github.com/user-attachments/assets/3dca297d-ed46-461c-a04c-b35cdfa4ffa9",
+          "https://github.com/user-attachments/assets/c11fe3dd-f4ec-4bd4-9b22-2054698ec95b",
+          "https://github.com/user-attachments/assets/72b63471-b444-419b-b694-d66542234f34",
+          "https://github.com/user-attachments/assets/c4776e72-42ed-4453-87f1-ef2e148d4725",
+          "https://github.com/user-attachments/assets/4f0cd31a-c80b-45e0-971c-f15e09492003",
+          "https://github.com/user-attachments/assets/2ab8d676-3a6e-4f04-836c-d98a6e4584ea",
+          "https://github.com/user-attachments/assets/e829067d-4303-4269-90fb-74d3385a713d",
+          "https://github.com/user-attachments/assets/46f1178b-951d-45a3-ae64-59b14d144ad1",
+          "https://github.com/user-attachments/assets/e41bfe90-0932-4a2b-bf77-c3ff46361c5d",
+          "https://github.com/user-attachments/assets/f16dd666-5f7b-469c-a512-1c1546072afe",
+          "/images/roadDB.png"
+        ]
+      }
+  
+    ]
+  }
+  

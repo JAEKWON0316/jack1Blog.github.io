@@ -1,35 +1,31 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../style/carousel.css';
-import roadDB from '../assets/roadDB.png'; 
+import carouselData from '../db/carousel.json'; // carousel.json import
 
-const Carousel = ({ onClose }) => {
-  // 이미지 배열과 상태 추가
-  const images = [
-    "https://github.com/user-attachments/assets/8a173180-9a4d-44d7-99fa-35b4788e1cd3",
-    "https://github.com/user-attachments/assets/3dca297d-ed46-461c-a04c-b35cdfa4ffa9",
-    "https://github.com/user-attachments/assets/c11fe3dd-f4ec-4bd4-9b22-2054698ec95b",
-    "https://github.com/user-attachments/assets/72b63471-b444-419b-b694-d66542234f34",
-    "https://github.com/user-attachments/assets/c4776e72-42ed-4453-87f1-ef2e148d4725",
-    "https://github.com/user-attachments/assets/4f0cd31a-c80b-45e0-971c-f15e09492003",
-    "https://github.com/user-attachments/assets/2ab8d676-3a6e-4f04-836c-d98a6e4584ea",
-    "https://github.com/user-attachments/assets/e829067d-4303-4269-90fb-74d3385a713d",
-    "https://github.com/user-attachments/assets/46f1178b-951d-45a3-ae64-59b14d144ad1",
-    "https://github.com/user-attachments/assets/e41bfe90-0932-4a2b-bf77-c3ff46361c5d",
-    "https://github.com/user-attachments/assets/f16dd666-5f7b-469c-a512-1c1546072afe",
-    roadDB
-  ];
+const Carousel = ({ id, onClose }) => { // id prop 추가
+  const [images, setImages] = useState([]);
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-  const [currentIndex, setCurrentIndex] = useState(0); // 현재 이미지 인덱스 상태
+  useEffect(() => {
+    const carousel = carouselData.carousels.find(car => car.id === id); // 전달받은 id로 카루셀 선택
+    if (carousel) {
+      setImages(carousel.images); // 카루셀 이미지 설정
+      setCurrentIndex(0); // 카루셀 이미지가 바뀔 때 인덱스 초기화
+    }
+  }, [id]); // id가 변경될 때마다 useEffect 실행
 
   const handleNext = () => {
-    // 다음 이미지로 이동
     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
   };
 
   const handlePrev = () => {
-    // 이전 이미지로 이동
     setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
   };
+
+  // 현재 이미지가 없는 경우에 대한 처리
+  if (images.length === 0) {
+    return <div>No images available.</div>;
+  }
 
   return (
     <section id="Carousel" className="carousel-container" onClick={onClose}>
@@ -43,7 +39,7 @@ const Carousel = ({ onClose }) => {
         </div>
         <div className='carousel_img_move'>
           <button onClick={handlePrev}><i className="ri-arrow-drop-left-line"></i></button>
-          <div className='carousel_move'>{currentIndex + 1} / {images.length}</div> {/* 현재 이미지 인덱스 표시 */}
+          <div className='carousel_move'>{currentIndex + 1} / {images.length}</div>
           <button onClick={handleNext}><i className="ri-arrow-drop-right-line"></i></button>
         </div>
       </div>

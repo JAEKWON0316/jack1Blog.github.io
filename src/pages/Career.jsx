@@ -81,9 +81,11 @@ const Carrer = () => {
         <div className='career_role'>Spring Framework</div>
         <div className='career_role'>Spring Boot</div>
         <div className='career_role'>React</div>
+        <div className='career_role'>React-Native</div>
         <div className='career_role'>Java</div>
         <div className='career_role'>MySQL</div>
         <div className='career_role'>GitHub</div>
+        <div className='career_role'>FireBase</div>
         <div className='career_role'>AWS</div>
       </div>
 

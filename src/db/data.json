@@ -1,0 +1,101 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "title": "Linkisy",
+        "date": "2024.04 - 2024.06(팀 프로젝트)",
+        "description": "Java Spring Framework 기반으로 오픈API를 이용해 GPS로 여러기능을 하는 웹사이트",
+        "highlights": [
+          "식당예약을 위해 고민을 바탕으로 개발(Link+Easy의 linkisy)",
+          "백엔드와 프론트엔드를 명확히 구분하여 개발",
+          "Mysql 공용DB와 Figma 그리고 Java Spring을 활용하여 구현",
+          "예약이 가능한 어플 상 파일 및 이미지 관리가 중요하여 이 부분을 잘 만듦, GPS를 활용한 가시성 확보"
+        ],
+        "link": "https://www.ezenroad.com",
+        "github": "https://github.com/ahnhyogeon/TeamProject",
+        "languages": ["Java", "Spring FrameWork", "MySQL", "Figma", "Vanilla JS"],
+        "image": "https://github.com/user-attachments/assets/8a173180-9a4d-44d7-99fa-35b4788e1cd3"
+      },
+      {
+        "id": 2,
+        "title": "쇼핑몰 제작",
+        "date": "2024.02(개인 프로젝트)",
+        "description": "VSCODE로 기본적인 HTML CSS JS를 활용하여 여러가지 기능을 추가해 만든 쇼핑몰 웹사이트",
+        "highlights": [
+          "배열과 JSON타입을 이용해 이미지 및 파일 관리",
+          "localStroage를 이용한 장바구니 기능 개발",
+          "AJAX를 이용한 비동기 통신",
+          "JQuery를 이용한 수식 계산 및 비용 산정"
+        ],
+        "link": "https://github.com/JAEKWON0316/myshop01",
+        "github": "https://github.com/JAEKWON0316/myshop01",
+        "languages": ["HTML", "CSS", "JavaScript", "JQuery", "Bootstrap"],
+        "image": "/images/shop05.png"
+      },
+      {
+        "id": 3,
+        "title": "블로그 제작",
+        "date": "2024.04 (개인 프로젝트)",
+        "description": "Spring Security와 MySQL로 로그인 및 인증 멤버 관리를 중점으로 만든 블로그",
+        "highlights": [
+          "Spring Securiry로 인증 절차기반 로그인 구현",
+          "멤버 정보로 백엔드 기능, 블로그 UI로 프론트엔드 구성",
+          "Iframe을 이용한 Youtube 동영상 재생 기능",
+          "Hash함수를 이용한 비밀번호로 정보보안 강화"
+        ],
+        "link": "https://github.com/JAEKWON0316/spSecurity",
+        "github": "https://github.com/JAEKWON0316/spSecurity",
+        "languages": ["Spring", "MySQL", "HTML", "CSS", "JavaScript"],
+        "image": "/images/spsecurity01.png"
+      },
+      {
+        "id": 4,
+        "title": "게시판 제작",
+        "date": "2024.04 - 2024.05(개인 프로젝트)",
+        "description": "Java Spring Framework 기반으로 MySQL을 연동한 게시판 작업",
+        "highlights": [
+          "Mybatis, tiles를 이용한 Spring MVC 구현",
+          "MySQL로 DB설계·관리 및 CRUD작업으로 기능구현",
+          "Maven Repository에서 commons-io와 fileupload로 파일 및 이미지 입·출력 구현",
+          "비밀번호DB를 활용한 수정, Cookie를 활용한 조회수증가 등 여러가지 기능 개발"
+        ],
+        "link": "https://github.com/JAEKWON0316/spBoard",
+        "github": "https://github.com/JAEKWON0316/spBoard",
+        "languages": ["Java", "Spring FrameWork", "MySQL", "Tomcat", "Maven"],
+        "image": "/images/spboard01.png"
+      },
+      {
+        "id": 5,
+        "title": "채팅방 개설",
+        "date": "2024.06(개인 프로젝트)",
+        "description": "Java Spring Framework 기반으로 오픈API를 이용해 GPS로 여러기능을 하는 웹사이트",
+        "highlights": [
+          "React Router를 이용한 페이지 및 컴포넌트 관리",
+          "Fireabse의 Firestore를 사용하여 전반적인 채팅방 데이터의 입·출력 관리",
+          "Firebase Authentication을 이용한 사용자 정보 인증 및 로그인 관리",
+          "프론트엔드 React와 백엔드 Firebase의 효율적인 융합"
+        ],
+        "link": "https://github.com/JAEKWON0316/reactFirebase",
+        "github": "https://github.com/JAEKWON0316/reactFirebase",
+        "languages": ["FireBase", "React", "JavaScript", "CSS"],
+        "image": "/images/firebase08.png"
+      },
+      {
+        "id": 6,
+        "title": "포트폴리오 제작",
+        "date": "2024.04 - 2024.06(팀 프로젝트)",
+        "description": "Java Spring Framework 기반으로 오픈API를 이용해 GPS로 여러기능을 하는 웹사이트",
+        "highlights": [
+          "식당예약을 위해 고민을 바탕으로 개발(Link+Easy의 linkisy)",
+          "백엔드와 프론트엔드를 명확히 구분하여 개발",
+          "Mysql 공용DB와 Figma 그리고 Java Spring을 활용하여 구현",
+          "예약이 가능한 어플 상 파일 및 이미지 관리가 중요하여 이 부분을 잘 만듦, GPS를 활용한 가시성 확보"
+        ],
+        "link": "https://www.ezenroad.com",
+        "github": "https://github.com/JAEKWON0316/myshop01",
+        "languages": ["Java", "Spring FrameWork", "MySQL", "Figma", "Vanilla JS"],
+        "image": "/images/shop05.png"
+      }
+    ]
+  }
+  
