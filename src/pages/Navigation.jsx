@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import pf from '../assets/다운로드 (1).jpg';
 import { MdNavigateNext } from "react-icons/md";
 import { RiGithubFill, RiInstagramFill, RiKakaoTalkFill, RiGoogleFill } from "react-icons/ri";
+import gr from '../assets/graycolor.png';
 
 const Navigation = () => {
     const [actItem, setActItem] = useState('home'); // 기본값을 'home'으로 설정
@@ -61,7 +62,7 @@ const Navigation = () => {
     return (
         <div className="navi">
             <img 
-                src={pf} 
+                src={gr} 
                 style={{ width: '150px', height: '150px', borderRadius: '10rem' }}   
                 className="logo" 
                 alt="logo" 

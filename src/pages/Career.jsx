@@ -63,13 +63,13 @@ const Carrer = () => {
       &nbsp;&nbsp;&nbsp;투썸플레이스 매니저 &nbsp; <i class="ri-pushpin-fill"></i>
       </div>
       <p className='career_time'>2022년05월 - 2022년 07월</p>
-      <div className='underline_box mb-4'>투썸플레이스 고촌점에서 2달간 매니저 일을 하며 손님응대 발주 및 시간표관리</div>
+      <div className='underline_box mb-4'>투썸플레이스 고촌점에서 2달간 매니저 일을 하며 손님응대 발주 및 스케줄관리</div>
 
       <div className="career_box basic_font mb-2">
       &nbsp;&nbsp;&nbsp;할리스커피 매니저 &nbsp; <i class="ri-pushpin-fill"></i>
       </div>
       <p className='career_time'>2022년07월 - 2022년 09월</p>
-      <div className='underline_box mb-4'>할리스커피 사우점에서 2달간 매니저 일을 하며 손님응대 발주 및 시간표관리</div>
+      <div className='underline_box mb-4'>할리스커피 사우점에서 2달간 매니저 일을 하며 손님응대 발주 및 스케줄관리</div>
 
       <div className="career_box basic_font mb-2">
       &nbsp;&nbsp;&nbsp;국민내일배움카드 풀스택 자바웹개발자 수료 &nbsp; <i class="ri-pushpin-fill"></i>
