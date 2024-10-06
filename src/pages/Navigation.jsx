@@ -100,8 +100,8 @@ const Navigation = () => {
             <div className="text-center snsbox">
                 <a href="https://github.com/JAEKWON0316" className="github" target='_blank'><RiGithubFill /></a>
                 <a href="https://www.instagram.com/jack1zz_" className="insta" target='_blank'><RiInstagramFill /></a>
-                <a href="https://www.kakao.com" className="kakao"><RiKakaoTalkFill /></a>
-                <a href="https://mail.google.com" className="google"><RiGoogleFill /></a>
+                <a href="https://www.kakao.com" className="kakao" target='_blank'><RiKakaoTalkFill /></a>
+                <a href="https://mail.google.com" className="google" target='_blank'><RiGoogleFill /></a>
             </div>
 
             {/* 스크롤 맨 위로 이동 버튼 */}

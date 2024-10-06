@@ -41,6 +41,7 @@ a{
 
 }
 .navi{
+  top: -40px; /* 상단 여백 추가 (값을 조정하여 위치 조정 가능) */
   min-height:200px;
   background:#fefefe;
   border-left:1px solid #ededed;
@@ -50,152 +51,133 @@ a{
   text-align:left;
   display:flex;
   flex-flow: row wrap;
+  flex-direction: column; /* 세로 방향 정렬 */
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center; /* 중앙 정렬 */
   height:auto;
+  width: 80%; /* 유연한 너비 */
 }
-.logo{
-  max-width:30%;
-  transition:all 300ms;
-  margin-right:13px;
+.logo {
+  max-width: 100%; /* 이미지가 부모 요소에 맞게 조정 */
+  transition: all 300ms;
+  margin-bottom: 10px; /* 마진 조정 */
 }
-.hello{
-  font-weight:600;
-  font-size:30px;
-  margin-top:15px;
+
+.hello {
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 15px;
   font-family: "Nanum Gothic", sans-serif;
   font-weight: 800;
-  font-style: normal;
 }
-.hello2{
+
+.hello2 {
   font-size: 12px;
-  color:rgba(0,0,0, 0.7);
- 
+  color: rgba(0, 0, 0, 0.7);
 }
-.navbox{
-   text-align: left;
-   align-self:flex-start;
-   margin-left:20px;
+
+.navbox {
+  text-align: left;
+  align-self: flex-start;
+  margin-left: 20px;
 }
-.nav-tems{
-   display:flex;
-   text-decoration:none;
-   color:#333;
-   text-transform: uppercase;
-   font-weight:500;
-   align-items:center;
-   padding-top:10px;
-   padding-bottom:10px;
+
+.nav-tems {
+  display: flex;
+  text-decoration: none;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: 500;
+  align-items: center;
+  padding: 10px 0;
 }
-.nav-tems>span{
-    display:inline-block;
-    width:15px;
-    height:2px;
-    background:#333;
-    transition: all 300ms;
+
+.nav-tems > span {
+  display: inline-block;
+  width: 15px;
+  height: 2px;
+  background: #333;
+  transition: all 300ms;
 }
+
 .nav-tems:hover,
-.nav-tems.action{
-   font-weight:700;
+.nav-tems.action {
+  font-weight: 700;
 }
-.nav-tems:hover>span,
-.nav-tems.action>span{
-    width:35px;
+
+.nav-tems:hover > span,
+.nav-tems.action > span {
+  width: 35px;
 }
-.nav-tems>svg{
-    margin-left:-10px;
-    margin-right:15px;
-    font-size:20px;
+
+.nav-tems > svg {
+  margin-left: -10px;
+  margin-right: 15px;
+  font-size: 20px;
 }
-.snsbox a:first-child{
-   font-size:2rem;
-   margin-left:8px;
-   margin-right:8px;
-   color: #181717;
-   opacity: 1;
-   transition: all 300ms;
-   position:relative;
-}
-.snsbox a:nth-child(2){
-  font-size:2rem;
-  margin-left:8px;
-  margin-right:8px;
-  color:  #E1306C;
-  opacity: 1;
+
+.snsbox a {
+  font-size: 2rem;
+  margin: 0 8px; /* 좌우 마진 통합 */
   transition: all 300ms;
-  position:relative;
 }
-.snsbox a:nth-child(3){
-  font-size:2rem;
-  margin-left:8px;
-  margin-right:8px;
-  color: #FEE500;
-  opacity: 1;
-  transition: all 300ms;
-  position:relative;
+
+.snsbox a:first-child {
+  color: #181717;
 }
-.snsbox a:last-child{
-  font-size:2rem;
-  margin-left:8px;
-  margin-right:8px;
-  color: #4285F4;
-  opacity: 1;
-  transition: all 300ms;
-  position:relative;
-}
-.snsbox a:first-child:hover{
-  color:#181717;
-  opacity: 1;
-  font-size:2.2rem;
-}
-.snsbox a:nth-child(2):hover{
+
+.snsbox a:nth-child(2) {
   color: #E1306C;
-  opacity: 1;
-  font-size:2.2rem;
 }
-.snsbox a:nth-child(3):hover{
-  color:#FEE500;
-  opacity: 1;
-  font-size:2.2rem;
+
+.snsbox a:nth-child(3) {
+  color: #FEE500;
 }
-.snsbox a:last-child:hover{
-  color:#4285F4;
-  opacity: 1;
-  font-size:2.2rem;
+
+.snsbox a:last-child {
+  color: #4285F4;
 }
-.snsbox a:hover::before{
-   font-size:0.8rem;
-   position:absolute;
-   display:block;
-   width:60px;
-   text-align:right;
-   top:-5px;
-   right:5px;
+
+.snsbox a:hover {
+  font-size: 2.2rem;
 }
-.snsbox a.github:hover::before{
-    content:"깃허브";
+
+.snsbox a:hover::before {
+  font-size: 0.8rem;
+  position: absolute;
+  display: block;
+  width: 60px;
+  text-align: right;
+  top: -5px;
+  right: 5px;
 }
-.snsbox a.insta:hover::before{
-    content:"인스타";
+
+.snsbox a.github:hover::before {
+  content: "깃허브";
 }
-.snsbox a.kakao:hover::before{
-    content:"카카오톡";
+
+.snsbox a.insta:hover::before {
+  content: "인스타";
 }
-.snsbox a.google:hover::before{
-    content:"구글";
+
+.snsbox a.kakao:hover::before {
+  content: "카카오톡";
+}
+
+.snsbox a.google:hover::before {
+  content: "구글";
 }
 
 .flex_underline {
   display: flex;
   align-items: center; /* 아이콘과 텍스트 수직 가운데 정렬 */
-  margin-top:10px;
+  margin-top: 10px;
 }
 
 .block_underline {
   display: block;
- 
-  margin-left:5px;
-  margin-top:12px;
+  margin-left: 5px;
+  margin-top: 12px;
 }
 /**** HOME *****/
 #home{
@@ -777,52 +759,45 @@ section{
 section:nth-child(3){
   min-height: 500px;
 }
+
+/** media 쿼리 **/
+@media (max-width: 575px) {
+  .navi {
+    width: 90%; /* 모바일에서는 90% 너비 사용 */
+    padding: 20px; /* 패딩 조정 */
+  }
+
+  .hello {
+    font-size: 24px; /* 모바일에 적합한 폰트 크기 */
+  }
+}
+
 @media (min-width: 576px) {
   .navi {
-      width: 540px;
-      text-align:left;
+    width: 540px;
   }
 }
+
 @media (min-width: 768px) {
   .navi {
-      width: 720px;
-      text-align:left;
+    width: 720px;
   }
 }
+
 @media (min-width: 992px) {
   .navi {
-      width: 240px;
-      height:100%;
-      padding:100px 1rem 50px;
-      flex-flow: column wrap;
-      align-items: center;
-  }
-  .navi img{
-     max-width:80%;
-     transition:all 300ms;
+    padding: 100px 1rem 50px;
   }
 }
+
 @media (min-width: 1200px) {
   .navi {
-      width: 285px;
-      height:100%;
-      padding:100px 1rem 50px;
-      flex-flow: column wrap;
-      align-items: center;
-  }
-  .navi img{
-    max-width:80%;
+    width: 285px;
   }
 }
+
 @media (min-width: 1400px) {
   .navi {
-      width: 330px;
-      height:100%;
-      padding:50px 1rem 50px;
-      flex-flow: column wrap;
-      align-items: center;
+    width: 330px;
   }
-  .navi img{
-    max-width:80%;
-  } 
-}
+} 
