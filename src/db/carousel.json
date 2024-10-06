@@ -20,13 +20,12 @@
       {
         "id": 2,
         "images": [
-          "/images/portfolio02.png",
-          "/images/portfolio01.png",
-          "/images/portfolio03.png",
           "/images/portfolio04.png",
+          "/images/portfolio03.png",
           "/images/portfolio05.png",
           "/images/portfolio06.png",
-          "/images/portfolio07.png"
+          "/images/portfolio07.png",
+          "/images/portfolio02.png"
         ]
       },
       {

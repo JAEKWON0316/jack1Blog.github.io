@@ -102,6 +102,7 @@
                 <div className='project_more'>...더보기</div>
                 <div className="text_box2 basic_font">
                   <h3 className='project_more2'><span className='red_star'>*</span>프로젝트는 계속 개발될 예정입니다.</h3>
+                  <h6 className='project_more3'>(현재 React, SpringBoot, MySQL을 이용한 싸이월드 개발을 하고 있습니다.)</h6>
                 </div>
               </div>
             </div>
