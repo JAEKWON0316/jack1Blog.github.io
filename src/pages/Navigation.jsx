@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import pf from '../assets/다운로드 (1).jpg';
 import { MdNavigateNext } from "react-icons/md";
 import { RiGithubFill, RiInstagramFill, RiKakaoTalkFill, RiGoogleFill } from "react-icons/ri";
 import gr from '../assets/graycolor.png';
@@ -99,8 +98,8 @@ const Navigation = () => {
                 <img src="images/left-background.png" className="img-fluid" />
             </div>
             <div className="text-center snsbox">
-                <a href="https://github.com/JAEKWON0316/reactBlog" className="github"><RiGithubFill /></a>
-                <a href="https://www.instagram.com/jack1zz_" className="insta"><RiInstagramFill /></a>
+                <a href="https://github.com/JAEKWON0316" className="github" target='_blank'><RiGithubFill /></a>
+                <a href="https://www.instagram.com/jack1zz_" className="insta" target='_blank'><RiInstagramFill /></a>
                 <a href="https://www.kakao.com" className="kakao"><RiKakaoTalkFill /></a>
                 <a href="https://mail.google.com" className="google"><RiGoogleFill /></a>
             </div>

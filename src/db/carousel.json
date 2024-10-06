@@ -20,6 +20,18 @@
       {
         "id": 2,
         "images": [
+          "/images/portfolio02.png",
+          "/images/portfolio01.png",
+          "/images/portfolio03.png",
+          "/images/portfolio04.png",
+          "/images/portfolio05.png",
+          "/images/portfolio06.png",
+          "/images/portfolio07.png"
+        ]
+      },
+      {
+        "id": 3,
+        "images": [
             "/images/shop05.png",
             "/images/shop01.png",
             "/images/shop02.png",
@@ -28,7 +40,7 @@
         ]
       },
       {
-        "id": 3,
+        "id": 4,
         "images": [
             "/images/spsecurity01.png",
             "/images/mysecurity02.png",
@@ -37,7 +49,7 @@
         ]
       },
       {
-        "id": 4,
+        "id": 5,
         "images": [
             "/images/spboard01.png",
             "/images/spboard02.png",
@@ -51,7 +63,7 @@
         ]
       },
       {
-        "id": 5,
+        "id": 6,
         "images": [
             "/images/firebase08.png",
             "/images/firebasechat01.png",
@@ -62,20 +74,7 @@
             "/images/firebase06.png",
             "/images/firebase07.png"
         ]
-      },
-      {
-        "id": 6,
-        "images": [
-          "/images/portfolio02.png",
-          "/images/portfolio01.png",
-          "/images/portfolio03.png",
-          "/images/portfolio04.png",
-          "/images/portfolio05.png",
-          "/images/portfolio06.png",
-          "/images/portfolio07.png"
-        ]
-      }
-  
+      }   
     ]
   }
   
