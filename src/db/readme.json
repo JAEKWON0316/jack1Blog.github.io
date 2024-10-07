@@ -4,7 +4,7 @@
             "id": 1,
             "title": "링키지 (Spring, MySQL)",
             "intro": "2024.04 - 2024.06(팀 프로젝트)",
-            "deploymentURL": "http://www.ezroad.kr/",
+            "deploymentURL": "http://www.ezroad.kr",
             "summary": "Spring과 MySQL을 연동하여 개발한 식당 예약 웹사이트",
             "highlights": [
               "캐치테이블을 보고 영감을 받고 직접 개발",

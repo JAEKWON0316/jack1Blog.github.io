@@ -42,7 +42,7 @@
           <span className="intro">"제가 만든 작품들"</span>
           <h1 className='mb-5 black_font flex_underline'>
             <i className="ri-links-line"></i>
-            <span className="block_underline">Projects</span>
+            <span className="block_underline">Projects &nbsp;<span className='pr_span basic_font'><span className='red_star'>*</span>프로젝트 위에 마우스를 올려주세요.</span></span>  
           </h1>
           
           <div className="row black_font mt-5">

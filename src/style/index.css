@@ -569,6 +569,11 @@ font-size:20px;
   line-height: 3;
 }
 
+.pr_span{
+  font-size:15px;
+  font-weight: 500; 
+}
+
 /***** career *****/
 .career_box{
   display: flex; 
@@ -576,6 +581,7 @@ font-size:20px;
   font-weight:700;
   font-size:1.025rem;
 }
+
 .career_box2{
   display: flex; 
   border-left:4px solid #f94148;
