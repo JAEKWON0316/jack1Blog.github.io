@@ -56,6 +56,7 @@ a{
   align-items: center; /* 중앙 정렬 */
   height:auto;
   width: 80%; /* 유연한 너비 */
+  background-color: rgba(225, 225, 225, 0.3); /* 배경에만 투명도 80% 적용 */
 }
 .logo {
   max-width: 100%; /* 이미지가 부모 요소에 맞게 조정 */
