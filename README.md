@@ -43,6 +43,15 @@
 - JSON 데이터를 통해 프로젝트 정보를 동적으로 처리하는 방법을 학습하고, React의 기본 개념을 완벽하게 이해할 수 있었습니다.
 - **무한 캐러셀 구현**과 **React Hooks**를 활용해 실무에서 활용할 수 있는 여러 기술을 적용했습니다.
 
+## 이미지
+
+![Portfolio Image 1](./images/portfolio04.png)
+![Portfolio Image 2](./images/portfolio03.png)
+![Portfolio Image 3](./images/portfolio05.png)
+![Portfolio Image 4](./images/portfolio06.png)
+![Portfolio Image 5](./images/portfolio07.png)
+![Portfolio Image 6](./images/portfolio02.png)
+
 ## 설치 및 실행 방법
 이 프로젝트를 로컬에서 실행하려면, 아래의 단계를 따라주세요:
 
@@ -52,11 +61,3 @@ git clone https://github.com/username/portfolio
 cd portfolio
 npm start
 
-## 이미지
-
-![Portfolio Image 1](./images/portfolio04.png)
-![Portfolio Image 2](./images/portfolio03.png)
-![Portfolio Image 3](./images/portfolio05.png)
-![Portfolio Image 4](./images/portfolio06.png)
-![Portfolio Image 5](./images/portfolio07.png)
-![Portfolio Image 6](./images/portfolio02.png)
