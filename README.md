@@ -45,10 +45,20 @@
 
 ## 이미지
 
-| ![Portfolio Image 1](/public/images/portfolio04.png) | ![Portfolio Image 2](/public/images/portfolio03.png) |
-|:---------------------------------------------:|:---------------------------------------------:|
-| ![Portfolio Image 3](/public/images/portfolio05.png) | ![Portfolio Image 4](/public/images/portfolio06.png) |
-| ![Portfolio Image 5](/public/images/portfolio07.png) | ![Portfolio Image 6](/public/images/portfolio02.png) |
+<table>
+  <tr>
+    <td><img src="/public/images/portfolio04.png" width="400px" /></td>
+    <td><img src="/public/images/portfolio03.png" width="400px" /></td>
+  </tr>
+  <tr>
+    <td><img src="/public/images/portfolio05.png" width="400px" /></td>
+    <td><img src="/public/images/portfolio06.png" width="400px" /></td>
+  </tr>
+  <tr>
+    <td><img src="/public/images/portfolio07.png" width="400px" /></td>
+    <td><img src="/public/images/portfolio02.png" width="400px" /></td>
+  </tr>
+</table>
 
 ## 설치 및 실행 방법
 이 프로젝트를 로컬에서 실행하려면, 아래의 단계를 따라주세요:
