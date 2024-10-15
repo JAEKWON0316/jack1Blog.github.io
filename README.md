@@ -45,12 +45,12 @@
 
 ## 이미지
 
-![Portfolio Image 1](./images/portfolio04.png)
-![Portfolio Image 2](./images/portfolio03.png)
-![Portfolio Image 3](./images/portfolio05.png)
-![Portfolio Image 4](./images/portfolio06.png)
-![Portfolio Image 5](./images/portfolio07.png)
-![Portfolio Image 6](./images/portfolio02.png)
+![Portfolio Image 1](/public/images/portfolio04.png)
+![Portfolio Image 2](/public/images/portfolio03.png)
+![Portfolio Image 3](/public/images/portfolio05.png)
+![Portfolio Image 4](/public/images/portfolio06.png)
+![Portfolio Image 5](/public/images/portfolio07.png)
+![Portfolio Image 6](/public/images/portfolio02.png)
 
 ## 설치 및 실행 방법
 이 프로젝트를 로컬에서 실행하려면, 아래의 단계를 따라주세요:
