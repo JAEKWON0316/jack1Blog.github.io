@@ -47,16 +47,16 @@
 
 <table>
   <tr>
-    <td><img src="/public/images/portfolio04.png" width="400px" /></td>
-    <td><img src="/public/images/portfolio03.png" width="400px" /></td>
+    <td><img src="/public/images/portfolio04.png" width="400px" height="300px" /></td>
+    <td><img src="/public/images/portfolio03.png" width="400px" height="300px" /></td>
   </tr>
   <tr>
-    <td><img src="/public/images/portfolio05.png" width="400px" /></td>
-    <td><img src="/public/images/portfolio06.png" width="400px" /></td>
+    <td><img src="/public/images/portfolio05.png" width="400px" height="300px" /></td>
+    <td><img src="/public/images/portfolio06.png" width="400px" height="300px" /></td>
   </tr>
   <tr>
-    <td><img src="/public/images/portfolio07.png" width="400px" /></td>
-    <td><img src="/public/images/portfolio02.png" width="400px" /></td>
+    <td><img src="/public/images/portfolio07.png" width="400px" height="300px" /></td>
+    <td><img src="/public/images/portfolio02.png" width="400px" height="300px" /></td>
   </tr>
 </table>
 
