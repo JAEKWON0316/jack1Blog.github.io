@@ -65,8 +65,11 @@
 
 ### 1. 프로젝트 클론
 ```bash
+git clone https://github.com/JAEKWON0316/jack1Blog.github.io
+cd portfolio
 # Install JavaScript Packages
 npm install
 
 # Run Frontend Server
 npm start
+
