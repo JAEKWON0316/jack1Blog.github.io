@@ -16,10 +16,26 @@
 - **React Hooks 사용**: 상태 관리와 컴포넌트 생명주기 관리의 간소화.
 
 ## 기술 스택
-- **프론트엔드**: React, React Hooks
-- **스타일링**: HTML5, CSS, Bootstrap
-- **데이터 관리**: JSON
-- **배포**: GitHub Pages
+<p align="center">
+  <strong>프론트엔드</strong><br>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React Hooks" width="50" height="50"/>
+
+  <br><br>
+  <strong>스타일링</strong><br>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" width="50" height="50"/>
+
+  <br><br>
+  <strong>데이터 관리</strong><br>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/json/json-original.svg" alt="JSON" width="50" height="50"/>
+
+  <br><br>
+  <strong>배포</strong><br>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="GitHub Pages" width="50" height="50"/>
+</p>
+
 
 ## 프로젝트 상세 설명
 
