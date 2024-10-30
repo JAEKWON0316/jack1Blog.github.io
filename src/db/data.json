@@ -14,7 +14,7 @@
         "link": "http://www.ezroad.kr/",
         "github": "https://github.com/JAEKWON0316/roadProject",
         "languages": ["Java", "Spring FrameWork", "MySQL", "Figma", "Vanilla JS"],
-        "image": "images/roadDB.png"
+        "image":   "/images/main01.png"
       },
       {
         "id": 2,
