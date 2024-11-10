@@ -38,6 +38,26 @@
       },
       {
         "id": 3,
+        "title": "AI제작 웹사이트 (React)",
+        "date": "2024.11.02 - 2024.11.03(개인 프로젝트)",
+        "description": "React,next.js를 기반으로 제작한 AI 웹사이트",
+        "highlights": [
+          "나만의 포트폴리오를 위한 웹사이트 개발",
+          "JSON 사용으로 가독성과 재상용성에 유리함을 챙기며 제작",
+          "컴포넌트를 최소화하여 성능최적화와 유지보수에 이점을 챙김",
+          "React Hooks를 사용함으로 가벼운 상태 관리와 생명주기를 간소화 시킴"
+        ],
+        "link": "https://daecheongse.co.kr",
+        "github": "https://github.com/JAEKWON0316/aiSites.github.io",
+        "languages": ["React",
+        "React Hooks",
+        "Next.js",
+        "TailwindCSS",
+        "GitHub Pages"],
+        "image": "/images/aisite01.png"
+      },
+      {
+        "id": 4,
         "title": "쇼핑몰 제작",
         "date": "2024.02(개인 프로젝트)",
         "description": "VSCODE로 기본적인 HTML CSS JS를 활용하여 기능을 추가해 만든 쇼핑몰 웹사이트",
@@ -53,7 +73,7 @@
         "image": "/images/shop05.png"
       },
       {
-        "id": 4,
+        "id": 5,
         "title": "블로그 제작",
         "date": "2024.04 (개인 프로젝트)",
         "description": "Spring Security와 MySQL로 로그인 및 인증 멤버 관리를 중점으로 만든 블로그",
@@ -69,7 +89,7 @@
         "image": "/images/spsecurity01.png"
       },
       {
-        "id": 5,
+        "id": 6,
         "title": "게시판 제작",
         "date": "2024.04 - 2024.05(개인 프로젝트)",
         "description": "Java Spring Framework 기반으로 MySQL을 연동한 게시판 작업",
@@ -85,7 +105,7 @@
         "image": "/images/spboard01.png"
       },
       {
-        "id": 6,
+        "id": 7,
         "title": "채팅방 개설",
         "date": "2024.06(개인 프로젝트)",
         "description": "Java Spring Framework 기반으로 오픈API를 이용해 GPS로 여러기능을 하는 웹사이트",

@@ -87,7 +87,7 @@
                       <button className="p_btn_1" onClick={() => handleImageClick(index)}>
                         <i className="ri-file-image-line"></i>이미지
                       </button>
-                      {index <= 1 && (
+                      {index <= 2 && (
                       <button className="p_btn_1" onClick={() => handleReadmeClick(index)}>
                       <i className="ri-book-open-line"></i>README
                       </button>
