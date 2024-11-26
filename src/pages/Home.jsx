@@ -47,8 +47,8 @@ const Home = ({ activeNavItem }) => {
       <div className={`about-box ${!isAtTop || isShowingAboutBox2 ? 'hidden' : ''}`}>
         <div className="home_box">
           <p className='black_font hbox_m h_name'>-이재권-</p>
-          <p className='black_font hbox_m'>Java 백엔드 개발자 포트폴리오</p>
-          <p className='hbox_m sand_font'>안녕하세요. <br />신입 Java 백엔드 개발자 <br />이재권입니다.</p>
+          <p className='black_font hbox_m'>Java 풀스택 개발자 포트폴리오</p>
+          <p className='hbox_m sand_font'>안녕하세요. <br />신입 Java 풀스택 개발자 <br />이재권입니다.</p>
         </div>
       </div>
 
@@ -56,7 +56,7 @@ const Home = ({ activeNavItem }) => {
         <div className="home_box2">
           <p className='black_font hbox_m h_name'>그럼 시작하겠습니다.</p>
           <p className='black_font hbox_m'>찾아봐 주셔서 감사합니다!</p>
-          <p className='hbox_m sand_font mb-5'>안녕하세요. <br />신입 Java 백엔드 개발자 <br />이재권입니다.</p>
+          <p className='hbox_m sand_font mb-5'>안녕하세요. <br />신입 Java 풀스택 개발자 <br />이재권입니다.</p>
           <button className='home_btn' onClick={scrollToAboutMe}>
             더 알아보기 <i className="ri-arrow-down-line"></i>
           </button>

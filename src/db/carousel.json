@@ -50,11 +50,31 @@
       {
         "id": 3,
         "images": [
-          "/images/aisite01.png"
+          "/images/dcs01.png",
+          "/images/dcs02.png",
+          "/images/dcs03.png",
+          "/images/dcs04.png",
+          "/images/dcs05.png",
+          "/images/dcs06.png",
+          "/images/dcs07.png",
+          "/images/dcs08.png",
+          "/images/dcs09.png",
+          "/images/dcs10.png"
         ]
       },
       {
         "id": 4,
+        "images": [
+          "/images/aisite01.png",
+          "/images/aisite02.png",
+          "/images/aisite03.png",
+          "/images/aisite04.png",
+          "/images/aisite05.png",
+          "/images/aisite06.png"
+        ]
+      },
+      {
+        "id": 5,
         "images": [
             "/images/shop05.png",
             "/images/shop01.png",
@@ -64,7 +84,7 @@
         ]
       },
       {
-        "id": 5,
+        "id": 6,
         "images": [
             "/images/spsecurity01.png",
             "/images/mysecurity02.png",
@@ -73,7 +93,7 @@
         ]
       },
       {
-        "id": 6,
+        "id": 7,
         "images": [
             "/images/spboard01.png",
             "/images/spboard02.png",
@@ -87,7 +107,7 @@
         ]
       },
       {
-        "id": 7,
+        "id": 8,
         "images": [
             "/images/firebase08.png",
             "/images/firebasechat01.png",

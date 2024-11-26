@@ -34,18 +34,42 @@
         "JSON",
         "Bootstrap",
         "GitHub Pages"],
-        "image": "/images/portfolio04.png"
+        "image": "/images/portfolio111.png"
       },
       {
         "id": 3,
-        "title": "AI제작 웹사이트 (React)",
-        "date": "2024.11.02 - 2024.11.03(개인 프로젝트)",
-        "description": "React,next.js를 기반으로 제작한 AI 웹사이트",
+        "title": "대한청년을세계로 웹사이트 (SpringBoot)",
+        "date": "2024.11.05 - 2024.12.03(개인 프로젝트)",
+        "description": "SpringBoot, React, Mysql 활용하여 제작한 웹사이트",
         "highlights": [
-          "나만의 포트폴리오를 위한 웹사이트 개발",
-          "JSON 사용으로 가독성과 재상용성에 유리함을 챙기며 제작",
-          "컴포넌트를 최소화하여 성능최적화와 유지보수에 이점을 챙김",
-          "React Hooks를 사용함으로 가벼운 상태 관리와 생명주기를 간소화 시킴"
+          "사단법인 대한청년을세계로 홍보를 위한 웹사이트 개발",
+          "JPA를 활용하여 효율적인 자동화 기능으로 백엔드 제작",
+          "React Redis를 사용하여 성능최적화의 이점을 챙김",
+          "React Hooks를 사용하여 유지보수를 위한 가벼운 상태 관리와 생명주기를 간소화 시킴",
+          "프론트는 Vercel로 백엔드는 Heroku로 GitHub와 연결한 배포자동화 기능"
+        ],
+        "link": "https://daecheongse.com",
+        "github": "https://github.com/JAEKWON0316/dcsProject.github.io",
+        "languages": [
+        "React",
+        "SpringBoot",
+        "Mysql",
+        "Vercel",
+        "Heroku",
+        "Firebase"
+      ],
+        "image": "/images/dcs01.png"
+      },
+      {
+        "id": 4,
+        "title": "AI제작 웹사이트 (Next.js)",
+        "date": "2024.11.02 - 2024.11.03(개인 프로젝트)",
+        "description": "Next.js를 기반으로 AI를 활용하여 제작한 웹사이트",
+        "highlights": [
+          "AI Tool(V0.dev)을 활용한 웹사이트 개발",
+          "V0.dev의 도움을 받아 단시간에 제작 · 배포 및 프로젝트 수정과 유지보수에 AI를 활용한 반자동화 기능을 챙김",
+          "React와 강력하게 연동되는 Next.js를 사용함으로 프론트개발에 필요한 생산성과 성능면에서 이점을 챙김",
+          "TailWindCSS 사용으로 생산성 향샹 및 자동 반응형 디자인 지원"
         ],
         "link": "https://daecheongse.co.kr",
         "github": "https://github.com/JAEKWON0316/aiSites.github.io",

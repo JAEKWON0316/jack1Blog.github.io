@@ -11,7 +11,7 @@ const About = () => {
         <h1 className='mb-5 black_font flex_underline'><i class="ri-links-line"></i><span className="block_underline">About Me</span></h1>
       <h3 className='mb-5'>저는 웹 그리고 모바일 애플리케이션을 만드는중입니다.</h3>
           <p className='about_text1'>
-          메인 언어 JAVA로 백엔드 개발에 관심을 가지고 있는 주니어 개발자
+          메인 언어 JAVA로 풀스택 개발에 관심을 가지고 있는 주니어 개발자
           </p>
           <p className='about_text2 mb-5'>
           대학교 진학 후 프로그래밍 언어와 전자공학에 대해 처음 공부를 하였습니다. 

@@ -68,7 +68,7 @@ const Navigation = () => {
                 alt="logo" 
             />  
             <h4 className="hello mt-4 text-c pe-3">이재권</h4>
-            <span className='hello2 mb-4 pe-3'>Java 백엔드 개발자</span>
+            <span className='hello2 mb-4 pe-3'>Java 풀스택 개발자</span>
             <div className="navbox">
                 <a href="#home" className={`nav-tems ${actItem === 'home' ? 'action' : ''}`}
                     onClick={() => setActItem('home')}>
