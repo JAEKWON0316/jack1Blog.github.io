@@ -850,7 +850,7 @@ section:nth-child(3){
     top:10px;
   }
   .col-md-3 {
-    width: 48%; /* col-md-3의 기본 너비 */
+    width: 49%; /* col-md-3의 기본 너비 */
   }
   .about_banner{
     width:400px;
@@ -884,6 +884,18 @@ section:nth-child(3){
  .career_role_box,.career_role_box2{
   width:100%;
  }
+
+ .h_img_box{
+  max-width: 100%;
+  display:none;
+}
+.snsbox{
+  max-width: 100%;
+  display:none;
+}
+.navbox{
+  max-width:100%;
+}
 }
 
 @media (min-width: 576px) {
@@ -892,9 +904,110 @@ section:nth-child(3){
   }
 }
 @media (max-width: 767px){
-  .navi {
-    visibility: hidden;
+  .home_box, .home_box2{
+    font-size: 1.9rem;
   }
+  .readme_box{
+    position: fixed;
+    left:22px; 
+    max-width: 90%;
+    margin:0 auto;
+  }
+  .navi {
+    position: fixed;
+    top: 0;
+    left: -80%; /* 화면 밖으로 숨김 */
+    width: 80%;
+    height: 100%;
+    background-color: rgba(220, 220, 220, 0.3);
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left:100px;
+    z-index: 999;
+   
+  }
+  
+  .col-md-9.shifted{
+    transform: translateX(80%);
+  }
+ 
+
+/* 활성화 상태: 화면에 표시 */
+.navi.visible {
+  transform: translateX(80%); /* 화면 안으로 이동 */
+}
+
+  .navi ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .navi li {
+    margin: 15px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .hello {
+    font-size: 24px; /* 모바일에 적합한 폰트 크기 */
+  }
+  .headerbtn{
+    visibility: visible;
+    position:fixed;
+    left:0;
+    top:10px;
+  }
+  .col-md-3 {
+    width: 49%; /* col-md-3의 기본 너비 */
+  }
+  .about_banner{
+    width:400px;
+    height:150px;
+  }
+
+  .pr_in_box{
+    width:180px;
+    padding:0;
+  }
+  .pr_d_box>div>div{
+    font-size: 0.5rem;
+  }
+  .profile_banner>h5{
+    font-size: 1.1rem;
+    line-height: 3;
+  }
+  .myskill{
+    width:100%;
+  }
+  .pr_span{
+   font-size: 0.8rem;
+  }
+  .project_text{
+    font-size: 1rem;
+    line-height: 3.5;
+  }
+ .underline_box,.underline2_box{
+  width:100%;
+ }
+ .career_role_box,.career_role_box2{
+  width:100%;
+ }
+ .h_img_box{
+  width: 100%;
+  display:none;
+}
+.snsbox{
+  width:100%;
+  display:none;
+}
 
 }
 @media (min-width: 768px) {

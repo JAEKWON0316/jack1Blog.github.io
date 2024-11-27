@@ -135,7 +135,7 @@ const Navigation = ({ btnClick, clickButton, handleLinkClick }) => {
                         <span /><MdNavigateNext /> career
                     </a>
                 </div>
-                <div className="text-center mt-4 mb-4">
+                <div className="h_img_box text-center mt-4 mb-4">
                     <img src="images/left-background.png" className="img-fluid" alt="background" />
                 </div>
                 <div className="text-center snsbox">
