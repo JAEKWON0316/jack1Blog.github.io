@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+
+
 html,body{
   height:100%;
 }
@@ -40,24 +42,7 @@ a{
   letter-spacing: 3px;
 
 }
-.navi{
-  top: -40px; /* 상단 여백 추가 (값을 조정하여 위치 조정 가능) */
-  min-height:200px;
-  background:#fefefe;
-  border-left:1px solid #ededed;
-  border-right:1px solid #ededed;
-  padding:10px 1rem 10px;
-  position:fixed;
-  text-align:left;
-  display:flex;
-  flex-flow: row wrap;
-  flex-direction: column; /* 세로 방향 정렬 */
-  justify-content: flex-start;
-  align-items: center; /* 중앙 정렬 */
-  height:auto;
-  width: 80%; /* 유연한 너비 */
-  background-color: rgba(225, 225, 225, 0.3); /* 배경에만 투명도 80% 적용 */
-}
+
 .logo {
   max-width: 100%; /* 이미지가 부모 요소에 맞게 조정 */
   transition: all 300ms;
@@ -768,20 +753,94 @@ font-size:20px;
 section{
   min-height:800px;
 }
+
 section:nth-child(3){
   min-height: 500px;
 }
 
+/**** navi RWS BTN ****/
+.headerbtn{
+  font-size:40px;
+  visibility: hidden;
+  cursor: pointer;
+  z-index: 1000;
+}
+.navi{
+  top: -40px; /* 상단 여백 추가 (값을 조정하여 위치 조정 가능) */
+  min-height:200px;
+  background:#fefefe;
+  border-left:1px solid #ededed;
+  border-right:1px solid #ededed;
+  padding:10px 1rem 10px;
+  position:fixed;
+  text-align:left;
+  display:flex;
+  flex-flow: row wrap;
+  flex-direction: column; /* 세로 방향 정렬 */
+  justify-content: flex-start;
+  align-items: center; /* 중앙 정렬 */
+  height:auto;
+  width: 80%; /* 유연한 너비 */
+
+ 
+}
+
 /** media 쿼리 **/
 @media (max-width: 575px) {
-  .navi {
-    width: 90%; /* 모바일에서는 90% 너비 사용 */
-    padding: 20px; /* 패딩 조정 */
-  }
 
+  .navi {
+    position: fixed;
+    top: 0;
+    left: -80%; /* 화면 밖으로 숨김 */
+    width: 80%;
+    height: 100%;
+    background: #fefefe;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left:100px;
+    z-index: 999;
+   
+  }
+  
+  .col-md-9.shifted{
+    transform: translateX(80%);
+  }
+ 
+
+/* 활성화 상태: 화면에 표시 */
+.navi.visible {
+  transform: translateX(80%); /* 화면 안으로 이동 */
+}
+
+  .navi ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .navi li {
+    margin: 15px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+  }
+  
   .hello {
     font-size: 24px; /* 모바일에 적합한 폰트 크기 */
   }
+  .headerbtn{
+    visibility: visible;
+    position:fixed;
+    left:0;
+    top:10px;
+  }
+  
 }
 
 @media (min-width: 576px) {
@@ -789,25 +848,37 @@ section:nth-child(3){
     width: 540px;
   }
 }
+@media (max-width: 767px){
+  .navi {
+    visibility: hidden;
+  }
 
+}
 @media (min-width: 768px) {
   .navi {
     width: 720px;
   }
 }
-
+@media (max-width: 991px){
+  .navi {
+    visibility: hidden;
+  }
+}
 @media (min-width: 992px) {
   .navi {
     padding: 100px 1rem 50px;
   }
 }
-
+@media (max-width: 1199px){
+  .navi {
+    visibility: hidden;
+  }
+}
 @media (min-width: 1200px) {
   .navi {
     width: 285px;
   }
 }
-
 @media (min-width: 1400px) {
   .navi {
     width: 330px;

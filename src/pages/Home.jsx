@@ -30,6 +30,7 @@ const Home = ({ activeNavItem }) => {
   };
 
   return (
+    
     <section 
       id="home" 
       onMouseEnter={(e) => {
@@ -63,6 +64,7 @@ const Home = ({ activeNavItem }) => {
         </div>
       </div>
     </section>
+    
   );
 };
 
