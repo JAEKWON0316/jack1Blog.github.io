@@ -865,7 +865,7 @@ section:nth-child(3){
     font-size: 0.5rem;
   }
   .profile_banner>h5{
-    font-size: 1.1rem;
+    font-size: 0.7rem;
     line-height: 3;
   }
   .myskill{
@@ -966,10 +966,12 @@ section:nth-child(3){
     top:10px;
   }
   .col-md-3 {
-    width: 49%; /* col-md-3의 기본 너비 */
+    width: 50%; /* col-md-3의 기본 너비 */
+    margin: 0 15px 10px 0 ;
+    
   }
   .about_banner{
-    width:400px;
+    width:100%;
     height:150px;
   }
 
@@ -981,21 +983,30 @@ section:nth-child(3){
     font-size: 0.5rem;
   }
   .profile_banner>h5{
-    font-size: 1.1rem;
-    line-height: 3;
+    font-size: 0.8rem;
+    line-height: 4.5;
   }
+ 
   .myskill{
-    width:100%;
+    max-width:100%;
+    
   }
   .pr_span{
    font-size: 0.8rem;
   }
   .project_text{
-    font-size: 1rem;
-    line-height: 3.5;
+    font-size: 0.75rem;
+    line-height: 4.5;
   }
+  .project_card{
+   margin-left:-24px;
+  }
+  
  .underline_box,.underline2_box{
   width:100%;
+ }
+ .career_box,.career_box2{
+  width: 350px;
  }
  .career_role_box,.career_role_box2{
   width:100%;
