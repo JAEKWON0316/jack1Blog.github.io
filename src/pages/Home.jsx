@@ -29,20 +29,19 @@ const Home = ({ activeNavItem }) => {
     }
   };
 
+  // 6초마다 상태 변경
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIsShowingAboutBox2((prev) => !prev); // 2초마다 상태를 토글
+    }, 5000);
+
+    // 컴포넌트가 언마운트 될 때 타이머 정리
+    return () => clearInterval(interval);
+  }, []); // 빈 배열로 한번만 실행되도록
+
   return (
-    
     <section 
-      id="home" 
-      onMouseEnter={(e) => {
-        e.preventDefault();
-        setIsHovered(true);
-        setIsShowingAboutBox2(true);
-      }}
-      onMouseLeave={(e) => {
-        e.preventDefault();
-        setIsHovered(false);
-        setIsShowingAboutBox2(true);
-      }} 
+      id="home"
       style={{ position: 'relative', overflow: 'hidden' }}
     >
       <div className={`about-box ${!isAtTop || isShowingAboutBox2 ? 'hidden' : ''}`}>
@@ -64,7 +63,6 @@ const Home = ({ activeNavItem }) => {
         </div>
       </div>
     </section>
-    
   );
 };
 

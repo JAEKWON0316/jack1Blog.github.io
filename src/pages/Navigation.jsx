@@ -22,13 +22,15 @@ const Navigation = ({ btnClick, clickButton, handleLinkClick }) => {
             setIsVisible(false);
         }
     };
- // 맨 위로 스크롤하는 함수
- const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
-  };
+
+    // 맨 위로 스크롤하는 함수
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
+    };
+
     // 섹션의 활성화를 관리하는 함수
     const handleScroll = () => {
         const sections = ['home', 'about', 'profile', 'skills', 'projects', 'career'];
@@ -51,14 +53,27 @@ const Navigation = ({ btnClick, clickButton, handleLinkClick }) => {
     };
 
     // 네비게이션을 닫을 때 scrollPosition과 sectionPosition을 기록하고, 이를 통해 스크롤 위치를 유지
-    const handleLinkClickAndClose = (navItem) => {
+    const handleLinkClickAndClose = (navItem, event) => {
+        // 브라우저 기본 동작 막기
+        if (event) {
+            event.preventDefault();
+        }
+
         setScrollPosition(window.pageYOffset);  // 현재 스크롤 위치 저장
         setSectionPosition(window.pageXOffset); // 현재 x축 스크롤 위치 저장
         setActItem(navItem);  // 활성화된 섹션 설정
         handleLinkClick();  // 네비게이션 닫기
 
-        // 페이지 이동 시 스크롤을 가장 왼쪽으로 이동시키기
-        window.scrollTo(-1, scrollPosition);  // Y축은 scrollPosition으로 유지하고, X축은 0으로
+        if (navItem === 'home') {
+            // home 클릭 시 스크롤을 맨 위로 이동
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+            // home이 아닌 경우 섹션으로 스크롤 이동
+            const element = document.getElementById(navItem);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
     };
 
     // 섹션 위치를 되돌리는 함수
@@ -76,10 +91,8 @@ const Navigation = ({ btnClick, clickButton, handleLinkClick }) => {
         };
     }, [actItem]); // actItem이 변경될 때마다 효과를 재실행
 
-  
-
     return (
-        <div className="navi">
+        <div>
             <button type='button' onClick={btnClick}><IoMenu className='headerbtn' /></button>
             <div className={`navi ${clickButton ? "visible" : "hidden"}`}>
                 <img
@@ -93,43 +106,43 @@ const Navigation = ({ btnClick, clickButton, handleLinkClick }) => {
                 <div className="navbox">
                     <a href="#home"
                         className={`nav-tems ${actItem === 'home' ? 'action' : ''}`}
-                        onClick={() => { handleLinkClickAndClose('home'); }}>
+                        onClick={(event) => { handleLinkClickAndClose('home', event); }}>
                         <span /><MdNavigateNext /> home
                     </a>
                     <a href="#about"
                         className={`nav-tems ${actItem === 'about' ? 'action' : ''}`}
-                        onClick={() => { handleLinkClickAndClose('about'); }}>
+                        onClick={(event) => { handleLinkClickAndClose('about', event); }}>
                         <span /><MdNavigateNext /> about me
                     </a>
                     <a href="#profile"
                         className={`nav-tems ${actItem === 'profile' ? 'action' : ''}`}
-                        onClick={() => { handleLinkClickAndClose('profile'); }}>
+                        onClick={(event) => { handleLinkClickAndClose('profile', event); }}>
                         <span /><MdNavigateNext /> Profile
                     </a>
                     <a href="#skills"
                         className={`nav-tems ${actItem === 'skills' ? 'action' : ''}`}
-                        onClick={() => { handleLinkClickAndClose('skills'); }}>
+                        onClick={(event) => { handleLinkClickAndClose('skills', event); }}>
                         <span /><MdNavigateNext /> Skills
                     </a>
                     <a href="#projects"
                         className={`nav-tems ${actItem === 'projects' ? 'action' : ''}`}
-                        onClick={() => { handleLinkClickAndClose('projects'); }}>
+                        onClick={(event) => { handleLinkClickAndClose('projects', event); }}>
                         <span /><MdNavigateNext /> projects
                     </a>
                     <a href="#career"
                         className={`nav-tems ${actItem === 'career' ? 'action' : ''}`}
-                        onClick={() => { handleLinkClickAndClose('career'); }}>
+                        onClick={(event) => { handleLinkClickAndClose('career', event); }}>
                         <span /><MdNavigateNext /> career
                     </a>
                 </div>
                 <div className="text-center mt-4 mb-4">
-                    <img src="images/left-background.png" className="img-fluid" />
+                    <img src="images/left-background.png" className="img-fluid" alt="background" />
                 </div>
                 <div className="text-center snsbox">
-                    <a href="https://github.com/JAEKWON0316" className="github" target='_blank'><RiGithubFill /></a>
-                    <a href="https://www.instagram.com/jack1zz_" className="insta" target='_blank'><RiInstagramFill /></a>
-                    <a href="https://www.kakao.com" className="kakao" target='_blank'><RiKakaoTalkFill /></a>
-                    <a href="https://mail.google.com" className="google" target='_blank'><RiGoogleFill /></a>
+                    <a href="https://github.com/JAEKWON0316" className="github" target='_blank' rel="noopener noreferrer"><RiGithubFill /></a>
+                    <a href="https://www.instagram.com/jack1zz_" className="insta" target='_blank' rel="noopener noreferrer"><RiInstagramFill /></a>
+                    <a href="https://www.kakao.com" className="kakao" target='_blank' rel="noopener noreferrer"><RiKakaoTalkFill /></a>
+                    <a href="https://mail.google.com" className="google" target='_blank' rel="noopener noreferrer"><RiGoogleFill /></a>
                 </div>
             </div>
             {/* 스크롤 맨 위로 이동 버튼 */}

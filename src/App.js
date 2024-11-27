@@ -30,7 +30,7 @@ const App = () => {
   }, [scrollPosition]); // scrollPosition이 변경될 때마다 복원
 
   return (
-    <Container className={`app-container ${clickButton ? 'navi-open' : ''}`}>
+    <Container>
       <Navigation
         btnClick={btnClick}
         clickButton={clickButton}
