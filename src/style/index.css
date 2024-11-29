@@ -992,6 +992,7 @@ section:nth-child(3){
     
   }
   .pr_span{
+    display: block;
    font-size: 0.8rem;
   }
   .project_text{

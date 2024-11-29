@@ -75,7 +75,7 @@ const Carrer = () => {
       &nbsp;&nbsp;&nbsp;국민내일배움카드 풀스택 자바웹개발자 수료 &nbsp; <i class="ri-pushpin-fill"></i>
       </div>
       <p className='career_time'>2023년12월 - 2024년 06월</p>
-      <div className='underline2_box'>개발에 흥미가 생겨 제대로 시작, 백엔드의 기초인 Servlet부터 Spring 더 나아가 Spring Boot의 활용 또한 프론트엔드의 기초인 HTML부터 React 더 나아가 React-native의 활용 DB관리를 위해 MYSQL, AWS, FireBase 이용한 개발 </div>
+      <div className='underline_box2 mb-4'>개발에 흥미가 생겨 제대로 시작, 백엔드의 기초인 Servlet부터 Spring 더 나아가 Spring Boot의 활용 또한 프론트엔드의 기초인 HTML부터 React 더 나아가 React-native의 활용 DB관리를 위해 MYSQL, AWS, FireBase 이용한 개발 </div>
       <div className="career_role_box">
         <div className='career_role'>Servlet</div>
         <div className='career_role'>Spring Framework</div>
@@ -92,9 +92,9 @@ const Carrer = () => {
       <div className="career_box basic_font mb-2 mt-4">
       &nbsp;&nbsp;&nbsp;정보처리기사 자격증 취득 &nbsp; <i class="ri-pushpin-fill"></i>
       </div>
-      <p className='career_time'>2024년 09월</p>
-      <div className='underline2_box'>팀 프로젝트와 개인프로젝트를 하면서 익힌 언어와 알고리즘으로 기사 자격증 취득 </div>
-      <div className="career_role_box2">
+      <p className='career_time'>2024년 9월</p>
+      <div className='underline_box2 mb-4'>팀 프로젝트와 개인프로젝트를 하면서 익힌 언어와 알고리즘으로 기사 자격증 취득 </div>
+      <div className="career_role_box">
         <div className='career_role'>C언어</div>
         <div className='career_role'>Java</div>
         <div className='career_role'>Python</div>
@@ -102,6 +102,21 @@ const Carrer = () => {
         <div className='career_role'>C++</div>
         <div className='career_role'>PHP</div>
         <div className='career_role'>JavaScript</div>
+      </div>
+
+      <div className="career_box basic_font mb-2 mt-4">
+      &nbsp;&nbsp;&nbsp;대한청년을세계로 웹사이트 제작 &nbsp; <i class="ri-pushpin-fill"></i>
+      </div>
+      <p className='career_time'>2024년 11~12월</p>
+      <div className='underline2_box'>프로젝트를 외주 받아 사단법인 대한청년을세계로 웹사이트 제작 </div>
+      <div className="career_role_box2">
+        <div className='career_role'>Java</div>
+        <div className='career_role'>SpringBoot</div>
+        <div className='career_role'>React</div>
+        <div className='career_role'>SQL</div>
+        <div className='career_role'>Firebase</div>
+        <div className='career_role'>Heroku</div>
+        <div className='career_role'>Vercel</div>
       </div>
     </div>
     </section>
