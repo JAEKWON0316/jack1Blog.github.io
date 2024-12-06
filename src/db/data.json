@@ -8,12 +8,12 @@
         "highlights": [
           "식당예약을 위해 고민을 바탕으로 개발(Link+Easy의 linkisy)",
           "백엔드와 프론트엔드를 명확히 구분하여 개발",
-          "Mysql 공용DB와 Figma 그리고 Java Spring을 활용하여 구현",
+          "Mybatis, tiles, mapper, jsp를 활용하여 Spring mvc 구현",
           "예약이 가능한 어플 상 파일·이미지 관리가 중요한 부분을 중점으로 개발 및 GPS를 활용한 가시성 확보"
         ],
         "link": "http://www.ezroad.kr/",
         "github": "https://github.com/JAEKWON0316/roadProject",
-        "languages": ["Java", "Spring FrameWork", "MySQL", "Figma", "Vanilla JS"],
+        "languages": ["Java", "Spring FrameWork", "MySQL", "Mybatis", "Vanilla JS"],
         "image":   "/images/main01.png"
       },
       {

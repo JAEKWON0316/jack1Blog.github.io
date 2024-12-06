@@ -18,6 +18,12 @@ const Carrer = () => {
       <p className='career_time'>2016년09월 - 2018년06월</p>
       <div className='underline_box mb-4'>부천에 있는 사단내에서 1년 9개월 병장 만기전역</div>
       
+      <div className="career_box basic_font mb-2 mt-4">
+      &nbsp;&nbsp;&nbsp;운전면허자격증2급 보통 취득 &nbsp; <i class="ri-pushpin-fill"></i>
+      </div>
+      <p className='career_time'>2019년 08월</p>
+      <div className='underline_box mb-4'>운젼면허학원에서 운전면허자격증2급 보통 취득</div>
+
       <div className="career_box basic_font mb-2">
       &nbsp;&nbsp;&nbsp;캡스톤디자인 준우승 &nbsp; <i class="ri-pushpin-fill"></i>
       </div>
@@ -54,12 +60,12 @@ const Carrer = () => {
       </div>
 
       <div className="career_box basic_font mb-2 mt-4">
-      &nbsp;&nbsp;&nbsp;SPC 생산직 2교대 알바 &nbsp; <i class="ri-pushpin-fill"></i>
+      &nbsp;&nbsp;&nbsp;국제바리스타자격증 2급 취득 &nbsp; <i class="ri-pushpin-fill"></i>
       </div>
-      <p className='career_time'>2021년07월 - 2021년08월</p>
-      <div className='underline_box mb-4'>평택에 있는 공장에서 기숙사 생활하며 생산직 알바 시작</div>
+      <p className='career_time'>2021년 09월</p>
+      <div className='underline_box mb-4'>한국바리스타협회 학원에서 국제바리스타자격증 2급 취득</div>
 
-      <div className="career_box basic_font mb-2">
+      <div className="career_box basic_font mb-2 mt-4">
       &nbsp;&nbsp;&nbsp;투썸플레이스 매니저 &nbsp; <i class="ri-pushpin-fill"></i>
       </div>
       <p className='career_time'>2022년05월 - 2022년 07월</p>

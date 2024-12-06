@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
 const Home = ({ activeNavItem }) => {
-  const [isHovered, setIsHovered] = useState(false);
   const [isShowingAboutBox2, setIsShowingAboutBox2] = useState(false);
   const [isAtTop, setIsAtTop] = useState(true);
 
@@ -29,7 +28,7 @@ const Home = ({ activeNavItem }) => {
     }
   };
 
-  // 6초마다 상태 변경
+  // 5초마다 상태 변경
   useEffect(() => {
     const interval = setInterval(() => {
       setIsShowingAboutBox2((prev) => !prev); // 2초마다 상태를 토글
