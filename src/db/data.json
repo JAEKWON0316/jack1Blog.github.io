@@ -43,10 +43,10 @@
         "description": "SpringBoot, React, Mysql 활용하여 제작한 웹사이트",
         "highlights": [
           "사단법인 대한청년을세계로 홍보를 위한 웹사이트 개발",
-          "JPA를 활용하여 효율적인 자동화 기능으로 백엔드 제작",
-          "React Redis를 사용하여 성능최적화의 이점을 챙김",
+          "클라이언츠특에서 LocalStorage와 React Query로 캐싱하여 사용자경험 향상",
+          "SpringBoot Redis를 사용하여 성능최적화의 이점을 챙김",
           "React Hooks를 사용하여 유지보수를 위한 가벼운 상태 관리와 생명주기를 간소화 시킴",
-          "프론트는 Vercel로 백엔드는 Heroku로 GitHub와 연결한 배포자동화 기능"
+          "각각 Vercel과 Heroku로 GitHub와 연결한 배포자동화 기능"
         ],
         "link": "https://daecheongse.com",
         "github": "https://github.com/JAEKWON0316/dcsProject.github.io",
@@ -81,7 +81,7 @@
         "image": "/images/aisite01.png"
       },
       {
-        "id": 4,
+        "id": 5,
         "title": "쇼핑몰 제작",
         "date": "2024.02(개인 프로젝트)",
         "description": "VSCODE로 기본적인 HTML CSS JS를 활용하여 기능을 추가해 만든 쇼핑몰 웹사이트",
@@ -94,10 +94,10 @@
         "link": "https://github.com/JAEKWON0316/myshop01",
         "github": "https://github.com/JAEKWON0316/myshop01",
         "languages": ["HTML", "CSS", "JavaScript", "JQuery", "Bootstrap"],
-        "image": "/images/shop05.png"
+        "image":  "/images/shop01.png"
       },
       {
-        "id": 5,
+        "id": 6,
         "title": "블로그 제작",
         "date": "2024.04 (개인 프로젝트)",
         "description": "Spring Security와 MySQL로 로그인 및 인증 멤버 관리를 중점으로 만든 블로그",
@@ -113,7 +113,7 @@
         "image": "/images/spsecurity01.png"
       },
       {
-        "id": 6,
+        "id": 7,
         "title": "게시판 제작",
         "date": "2024.04 - 2024.05(개인 프로젝트)",
         "description": "Java Spring Framework 기반으로 MySQL을 연동한 게시판 작업",
@@ -129,7 +129,7 @@
         "image": "/images/spboard01.png"
       },
       {
-        "id": 7,
+        "id": 8,
         "title": "채팅방 개설",
         "date": "2024.06(개인 프로젝트)",
         "description": "Java Spring Framework 기반으로 오픈API를 이용해 GPS로 여러기능을 하는 웹사이트",

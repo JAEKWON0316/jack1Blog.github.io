@@ -76,8 +76,8 @@
       {
         "id": 5,
         "images": [
-            "/images/shop05.png",
             "/images/shop01.png",
+            "/images/shop05.png",
             "/images/shop02.png",
             "/images/shop03.png",
             "/images/shop04.png"

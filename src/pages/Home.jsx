@@ -19,7 +19,6 @@ const Home = ({ activeNavItem }) => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
-
   // about_me 섹션으로 스크롤하는 함수
   const scrollToAboutMe = () => {
     const aboutMeSection = document.getElementById('about');

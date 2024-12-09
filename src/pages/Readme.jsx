@@ -52,6 +52,8 @@ const Readme = ({ onClose, readmeId }) => {
             <p>{readmeContent.meaning}</p>
             <p>{readmeContent.meaning2}</p>
             <p>{readmeContent.meaning3}</p>
+            <span className='fw-bold'>PS:</span>
+            <p>{readmeContent.ps}</p>
             <h2 className='read_url mt-5'><i className="ri-tools-fill"></i>&nbsp;&nbsp;Technology Stack(s)</h2>
             <p className='read_skills'>
               {readmeContent.technologyStacks.join(', ')}
