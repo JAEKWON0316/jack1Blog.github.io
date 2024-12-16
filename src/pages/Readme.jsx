@@ -31,9 +31,7 @@ const Readme = ({ onClose, readmeId }) => {
               <a className="read_url2" href={readmeContent.deploymentURL}target="_blank" rel="noopener noreferrer">
                 {readmeContent.deploymentURL}
               </a>
-              { readmeId <= 1 && (
-              <span style={{'color' : 'red', 'fontSize' : '14px'}}>&nbsp;(현재 더 나은 배포환경을 위해 수정중에 있습니다.)</span>
-              )}
+            
             </p>
             <h2 className='read_url'><i className="ri-pushpin-fill read_pin"></i>Summary</h2>
             <p><strong>{readmeContent.summary}</strong></p>
